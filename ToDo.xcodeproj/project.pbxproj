@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		51BF80611C30D822007CD140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80601C30D822007CD140 /* AppDelegate.swift */; };
-		51BF80631C30D822007CD140 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80621C30D822007CD140 /* ViewController.swift */; };
 		51BF80661C30D822007CD140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BF80641C30D822007CD140 /* Main.storyboard */; };
 		51BF80691C30D823007CD140 /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80671C30D823007CD140 /* ToDo.xcdatamodeld */; };
 		51BF806B1C30D823007CD140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BF806A1C30D823007CD140 /* Assets.xcassets */; };
 		51BF806E1C30D823007CD140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BF806C1C30D823007CD140 /* LaunchScreen.storyboard */; };
 		51BF80791C30D823007CD140 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80781C30D823007CD140 /* ToDoTests.swift */; };
 		51BF80841C30D823007CD140 /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80831C30D823007CD140 /* ToDoUITests.swift */; };
+		51BF80921C30E0C1007CD140 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80911C30E0C1007CD140 /* MapViewController.swift */; };
+		51BF80A01C319613007CD140 /* ToDoItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF809F1C319613007CD140 /* ToDoItemsTableViewController.swift */; };
+		51BF80A21C319621007CD140 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80A11C319621007CD140 /* PlacesTableViewController.swift */; };
+		51BF80A51C319809007CD140 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80A41C319809007CD140 /* PlaceTableViewCell.swift */; };
+		51BF80A71C31981D007CD140 /* ToDoItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80A61C31981D007CD140 /* ToDoItemTableViewCell.swift */; };
+		51BF80B61C31A8C5007CD140 /* ToDoItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80B21C31A8C5007CD140 /* ToDoItem+CoreDataProperties.swift */; };
+		51BF80B71C31A8C5007CD140 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80B31C31A8C5007CD140 /* ToDoItem.swift */; };
+		51BF80B81C31A8C5007CD140 /* Place+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80B41C31A8C5007CD140 /* Place+CoreDataProperties.swift */; };
+		51BF80B91C31A8C5007CD140 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80B51C31A8C5007CD140 /* Place.swift */; };
+		51BF80BD1C321579007CD140 /* EditPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80BC1C321579007CD140 /* EditPlaceViewController.swift */; };
+		51BF80BF1C3339B3007CD140 /* NewToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF80BE1C3339B3007CD140 /* NewToDoViewController.swift */; };
+		51BF80C11C3352BE007CD140 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BF80C01C3352BE007CD140 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +48,6 @@
 /* Begin PBXFileReference section */
 		51BF805D1C30D822007CD140 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BF80601C30D822007CD140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51BF80621C30D822007CD140 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51BF80651C30D822007CD140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51BF80681C30D823007CD140 /* ToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo.xcdatamodel; sourceTree = "<group>"; };
 		51BF806A1C30D823007CD140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +59,18 @@
 		51BF807F1C30D823007CD140 /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BF80831C30D823007CD140 /* ToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITests.swift; sourceTree = "<group>"; };
 		51BF80851C30D823007CD140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BF80911C30E0C1007CD140 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		51BF809F1C319613007CD140 /* ToDoItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemsTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		51BF80A11C319621007CD140 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesTableViewController.swift; path = ../PlacesTableViewController.swift; sourceTree = "<group>"; };
+		51BF80A41C319809007CD140 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		51BF80A61C31981D007CD140 /* ToDoItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemTableViewCell.swift; sourceTree = "<group>"; };
+		51BF80B21C31A8C5007CD140 /* ToDoItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ToDoItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		51BF80B31C31A8C5007CD140 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		51BF80B41C31A8C5007CD140 /* Place+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		51BF80B51C31A8C5007CD140 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		51BF80BC1C321579007CD140 /* EditPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPlaceViewController.swift; sourceTree = "<group>"; };
+		51BF80BE1C3339B3007CD140 /* NewToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewToDoViewController.swift; sourceTree = "<group>"; };
+		51BF80C01C3352BE007CD140 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BF80C11C3352BE007CD140 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +102,7 @@
 		51BF80541C30D822007CD140 = {
 			isa = PBXGroup;
 			children = (
+				51BF80C01C3352BE007CD140 /* MapKit.framework */,
 				51BF805F1C30D822007CD140 /* ToDo */,
 				51BF80771C30D823007CD140 /* ToDoTests */,
 				51BF80821C30D823007CD140 /* ToDoUITests */,
@@ -99,13 +123,15 @@
 		51BF805F1C30D822007CD140 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				51BF80A31C3197EB007CD140 /* Views */,
+				51BF809C1C318CAC007CD140 /* Controllers */,
+				51BF809B1C318C95007CD140 /* Models */,
 				51BF80601C30D822007CD140 /* AppDelegate.swift */,
-				51BF80621C30D822007CD140 /* ViewController.swift */,
 				51BF80641C30D822007CD140 /* Main.storyboard */,
 				51BF806A1C30D823007CD140 /* Assets.xcassets */,
-				51BF806C1C30D823007CD140 /* LaunchScreen.storyboard */,
 				51BF806F1C30D823007CD140 /* Info.plist */,
 				51BF80671C30D823007CD140 /* ToDo.xcdatamodeld */,
+				51BF806C1C30D823007CD140 /* LaunchScreen.storyboard */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -126,6 +152,38 @@
 				51BF80851C30D823007CD140 /* Info.plist */,
 			);
 			path = ToDoUITests;
+			sourceTree = "<group>";
+		};
+		51BF809B1C318C95007CD140 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51BF80B21C31A8C5007CD140 /* ToDoItem+CoreDataProperties.swift */,
+				51BF80B31C31A8C5007CD140 /* ToDoItem.swift */,
+				51BF80B41C31A8C5007CD140 /* Place+CoreDataProperties.swift */,
+				51BF80B51C31A8C5007CD140 /* Place.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		51BF809C1C318CAC007CD140 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				51BF80BE1C3339B3007CD140 /* NewToDoViewController.swift */,
+				51BF80BC1C321579007CD140 /* EditPlaceViewController.swift */,
+				51BF80A11C319621007CD140 /* PlacesTableViewController.swift */,
+				51BF809F1C319613007CD140 /* ToDoItemsTableViewController.swift */,
+				51BF80911C30E0C1007CD140 /* MapViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		51BF80A31C3197EB007CD140 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51BF80A41C319809007CD140 /* PlaceTableViewCell.swift */,
+				51BF80A61C31981D007CD140 /* ToDoItemTableViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +255,11 @@
 					51BF805C1C30D822007CD140 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 9RJ722B5F2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					51BF80731C30D823007CD140 = {
 						CreatedOnToolsVersion = 7.1;
@@ -262,9 +325,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51BF80631C30D822007CD140 /* ViewController.swift in Sources */,
 				51BF80691C30D823007CD140 /* ToDo.xcdatamodeld in Sources */,
+				51BF80A71C31981D007CD140 /* ToDoItemTableViewCell.swift in Sources */,
+				51BF80B71C31A8C5007CD140 /* ToDoItem.swift in Sources */,
+				51BF80B81C31A8C5007CD140 /* Place+CoreDataProperties.swift in Sources */,
+				51BF80A01C319613007CD140 /* ToDoItemsTableViewController.swift in Sources */,
+				51BF80921C30E0C1007CD140 /* MapViewController.swift in Sources */,
+				51BF80BD1C321579007CD140 /* EditPlaceViewController.swift in Sources */,
+				51BF80B61C31A8C5007CD140 /* ToDoItem+CoreDataProperties.swift in Sources */,
+				51BF80BF1C3339B3007CD140 /* NewToDoViewController.swift in Sources */,
 				51BF80611C30D822007CD140 /* AppDelegate.swift in Sources */,
+				51BF80A21C319621007CD140 /* PlacesTableViewController.swift in Sources */,
+				51BF80B91C31A8C5007CD140 /* Place.swift in Sources */,
+				51BF80A51C319809007CD140 /* PlaceTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +479,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ToDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = andrewburns.ToDo;
@@ -417,6 +494,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ToDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = andrewburns.ToDo;
@@ -491,6 +572,7 @@
 				51BF808A1C30D823007CD140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51BF808B1C30D823007CD140 /* Build configuration list for PBXNativeTarget "ToDoTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +581,7 @@
 				51BF808D1C30D823007CD140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51BF808E1C30D823007CD140 /* Build configuration list for PBXNativeTarget "ToDoUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +590,7 @@
 				51BF80901C30D823007CD140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

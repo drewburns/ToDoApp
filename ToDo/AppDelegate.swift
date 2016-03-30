@@ -10,6 +10,7 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
@@ -17,6 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        UINavigationBar.appearance().barTintColor = UIColor(netHex: 0x687F70)
+        UINavigationBar.appearance().tintColor = UIColor(netHex: 0xD1FFDF)
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
+        
+        UITabBar.appearance().barTintColor = UIColor(netHex: 0xD1FFDF)
+        UITabBar.appearance().tintColor = UIColor(netHex: 0x1D241F)
+//        UITabBar.appearance().selectedImageTintColor = UIColor(netHex: 0x1F2622)
         return true
     }
 
