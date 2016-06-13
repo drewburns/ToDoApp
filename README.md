@@ -1,0 +1,1 @@
+This app allows users to set reminders for themselves. It includes a place, time, and title of what needs to be done. Users can also bookmark locations on the map that they can reuse. Also, the app links to the Map app which can provide directions
